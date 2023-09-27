@@ -83,7 +83,7 @@
             </li>
             <li>
               <button
-                class="w-full p-3 sm:p-2 rounded-full text-white text-xl bg-primary hover:bg-hoverBlue duration-200"
+                class="w-full p-3 sm:p-1 rounded-full text-white text-xl bg-primary hover:bg-hoverBlue duration-200"
               >
                 Postar
               </button>
@@ -116,9 +116,9 @@
       <!--HEADER CENTER-->
       <div class="absolute top-2 sm:relative w-full h-28 col-span-2">
         <!--PAGINA INICIAL DESK-->
-        <div class="hidden sm:flex z-20">
+        <!-- <div class="hidden sm:flex relative backdrop-blur-md z-10">
           <span class="ml-5 text-2xl font-bold">Página Inicial</span>
-        </div>
+        </div> -->
 
         <!--PAGINA INICIAL MOBILE-->
         <div
@@ -137,17 +137,17 @@
         </div>
 
         <div
-          class="relative w-full h-2/4 border-b border-gray-500 flex justify-around items-center cursor-pointer"
+          class="relative z-10 mb-5 w-full h-2/4 border-b border-gray-500 flex justify-around items-center cursor-pointer backdrop-blur-md"
         >
           <div
-            class="group z-20 h-full w-2/4 flex items-center dark:bg-gray-900 dark:hover:bg-gray-800 duration-500 after:content-[''] after:opacity-0 hover:after:opacity-100 after:border-b-4 after:border-primary after:w-20 after:left-14 after:mt-14 sm:after:ml-8 after:absolute"
+            class="group h-full w-2/4 flex items-center dark:hover:bg-gray-800 duration-500 after:content-[''] after:opacity-0 hover:after:opacity-100 after:border-b-4 after:border-primary after:w-20 after:left-14 after:mt-14 sm:after:ml-8 after:absolute"
           >
             <span class="text-lg group-hover:font-bold ml-16 sm:ml-24"
               >For you</span
             >
           </div>
           <div
-            class="group z-20 h-full w-2/4 flex items-center hover:bg-gray-200 dark:bg-gray-900 dark:hover:bg-gray-800 duration-500 after:content-[''] after:opacity-0 hover:after:opacity-100 after:border-b-4 after:border-primary after:w-24 sm:after:w-26 after:mt-14 after:right-14 sm:after:mr-12 after:absolute"
+            class="group h-full w-2/4 flex items-center hover:bg-gray-200 dark:hover:bg-gray-800 duration-500 after:content-[''] after:opacity-0 hover:after:opacity-100 after:border-b-4 after:border-primary after:w-24 sm:after:w-26 after:mt-14 after:right-14 sm:after:mr-12 after:absolute"
           >
             <span class="text-lg group-hover:font-bold ml-16 sm:ml-20"
               >Following</span
@@ -155,30 +155,23 @@
           </div>
         </div>
 
-        <div class="w-full h-screen relative bottom-15 overflow-y-auto">
-          <div class="absolute w-full bg-blue-800 overflow-y-auto space-y-6">
-            <div class="w-full h-24 bg-red-800"></div>
+        <div
+          class="w-full h-screen relative bottom-10 overflow-y-auto scrollbar-hide"
+        >
+          <div class="w-full h-full bg-blue-800 space-y-6 mt-10">
+            <div class="w-full h-24 bg-red-800">
+              <img
+                src="./docs/images/pexels-david-bartus-1166209.jpg"
+                alt=""
+                class="w-16 h-16"
+              />
+            </div>
             <div class="w-full h-24 bg-red-700"></div>
             <div class="w-full h-24 bg-red-600"></div>
-            <div class="w-full h-24 bg-red-500"></div>
-            <div class="w-full h-24 bg-red-400"></div>
-            <div class="w-full h-24 bg-red-300"></div>
-            <div class="w-full h-24 bg-red-200"></div>
-            <div class="w-full h-24 bg-red-100"></div>
-            <div class="w-full h-24 bg-red-800"></div>
             <div class="w-full h-24 bg-red-700"></div>
             <div class="w-full h-24 bg-red-600"></div>
-            <div class="w-full h-24 bg-red-500"></div>
-            <div class="w-full h-24 bg-red-400"></div>
-            <div class="w-full h-24 bg-red-300"></div>
-            <div class="w-full h-24 bg-red-200"></div>
-            <div class="w-full h-24 bg-red-100"></div>
-            <div class="w-full h-24 bg-red-800"></div>
             <div class="w-full h-24 bg-red-700"></div>
             <div class="w-full h-24 bg-red-600"></div>
-            <div class="w-full h-24 bg-red-500"></div>
-            <div class="w-full h-24 bg-red-400"></div>
-            <div class="w-full h-24 bg-red-300"></div>
           </div>
         </div>
       </div>
