@@ -23,7 +23,7 @@
       <!--SIDEBAR-->
       <div
         id="sidebar"
-        class="hidden bg-white dark:bg-gray-900 sm:bg-transparent z-10 sm:flex w-full h-full border-r border-gray-500 pl-4 flex-col justiy-between"
+        class="hidden bg-white dark:bg-gray-900 sm:bg-transparent z-20 sm:flex w-full h-screen border-r border-gray-500 pl-4 flex-col justiy-between"
       >
         <!--IMAGEM SIDEBAR-->
         <div class="w-full h-20 sm:h-12 p-2">
@@ -155,10 +155,14 @@
           </div>
         </div>
 
-        <div class="w-full h-screen relative bottom-16 overflow-y-auto">
+        <div
+          class="w-full border h-screen relative bottom-16 border-red-800 overflow-y-auto"
+        >
           <div class="w-full h-full space-y-6 mt-12">
-            <div class="w-full h-24 bg-red-800 border-b p-3">
-              <div class="flex items-center space-x-4 relative">
+            <div
+              class="hidden sm:flex flex-col w-full h-24 border-b border-gray-500 p-5"
+            >
+              <div class="flex items-center space-x-4">
                 <img
                   src="./docs/images/pexels-david-bartus-1166209.jpg"
                   alt=""
@@ -169,7 +173,7 @@
                 </p>
               </div>
 
-              <div class="w-full h-auto bg-blue-800 absolute mt-2">
+              <div class="w-full h-auto bg-blue-800 mt-2">
                 <i></i>
                 <i></i>
                 <i></i>
@@ -180,12 +184,55 @@
                 <button>Postar</button>
               </div>
             </div>
-            <!-- <div class="w-full h-24 bg-red-700"></div>
-            <div class="w-full h-24 bg-red-600"></div>
-            <div class="w-full h-24 bg-red-700"></div>
-            <div class="w-full h-24 bg-red-600"></div>
-            <div class="w-full h-24 bg-red-700"></div>
-            <div class="w-full h-24 bg-red-600"></div> -->
+            <div
+              class="w-full h-auto border-b border-gray-500 border p-3 overflow-hidden"
+            >
+              <div class="flex w-full border">
+                <div>
+                  <img src="" alt="" class="w-10 h-10 rounded-full border" />
+                </div>
+                <div class="flex ml-2">
+                  <p class="sm:text-base">Confissões +18</p>
+                  <img
+                    src="./docs/images/Twitter_Verified_Badge.svg.png"
+                    alt=""
+                    class="w-5 h-5"
+                  />
+                  <p class="text-sm text-gray-300 ml-2">@confissõeszxxx · 1h</p>
+                </div>
+              </div>
+              <div class="ml-12 mt-2 w-4/5 h-auto sm:h-48 border">
+                <span class="break-words text-sm">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Debitis, quaerat. Eos nemo soluta deserunt quae nulla fugiat
+                  minus consequatur dignissimos cum, tenetur nesciunt laudantium
+                  in, placeat ipsam eveniet deleniti? Voluptatibus.
+                </span>
+              </div>
+              <div
+                class="flex justify-around items-center mt-4 w-full sm:text-sm"
+              >
+                <div class="cursor-pointer">
+                  <i class="fa-regular fa-comment"></i>
+                  <span>212</span>
+                </div>
+                <div class="cursor-pointer">
+                  <i class="fa-solid fa-retweet"></i>
+                  <span>135</span>
+                </div>
+                <div class="cursor-pointer">
+                  <i class="fa-regular fa-heart"></i>
+                  <span>2,960</span>
+                </div>
+                <div class="cursor-pointer">
+                  <i class="fa-solid fa-chart-simple"></i>
+                  <span>340k</span>
+                </div>
+                <div class="cursor-pointer">
+                  <i class="fa-solid fa-share-nodes"></i>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
