@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -182,16 +182,16 @@
 
               <div class="w-full h-auto absolute bottom-0 space-x-1">
                 <i
-                  class="fa-regular fa-image p-1.5 hover:bg-gray-800 cursor-pointer duration-200 rounded-full"
+                  class="fa-regular fa-image p-1.5 hover:bg-gray-200 dark:hover:bg-gray-800 cursor-pointer duration-200 rounded-full"
                 ></i>
                 <i
-                  class="fa-regular fa-face-smile p-1.5 hover:bg-gray-800 cursor-pointer duration-200 rounded-full"
+                  class="fa-regular fa-face-smile p-1.5 hover:bg-gray-200 dark:hover:bg-gray-800 cursor-pointer duration-200 rounded-full"
                 ></i>
                 <i
-                  class="fa-regular fa-calendar p-1.5 hover:bg-gray-800 cursor-pointer duration-200 rounded-full"
+                  class="fa-regular fa-calendar p-1.5 hover:bg-gray-200 dark:hover:bg-gray-800 cursor-pointer duration-200 rounded-full"
                 ></i>
                 <i
-                  class="fa-solid fa-location-dot p-1.5 hover:bg-gray-800 cursor-pointer duration-200 rounded-full"
+                  class="fa-solid fa-location-dot p-1.5 hover:bg-gray-200 dark:hover:bg-gray-800 cursor-pointer duration-200 rounded-full"
                 ></i>
 
                 <button
@@ -403,7 +403,30 @@
       </div>
 
       <!--ASIDE RIGHT-->
-      <div class="w-full h-full border-l border-gray-500"></div>
+      <div
+        class="w-full h-full border-l border-gray-500 p-2 hidden sm:flex flex-col"
+      >
+        <div
+          class="w-full h-10 flex items-center justify-around rounded-full bg-gray-200 dark:bg-gray-800 truncate"
+        >
+          <i class="fa-solid fa-magnifying-glass relative ml-3"></i>
+          <input
+            type="text"
+            placeholder="Pesquisar"
+            class="text-sm text-black ml-2 dark:text-white font-light p-1 w-full outline-0 bg-gray-200 dark:bg-gray-800"
+          />
+        </div>
+        <div
+          class="w-full bg-blue-700 h-auto relative mt-12 break-normal truncate"
+        >
+          <h2>Inscreva-se para o Premium</h2>
+          <p class="">
+            inscreva-se para desbloquear novos recursos e ser elegível, receba
+            uma parte da receita de anúncios
+          </p>
+          <button>Se inscreva-se</button>
+        </div>
+      </div>
     </div>
 
     <script src="./src/script.js"></script>
